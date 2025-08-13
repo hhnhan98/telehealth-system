@@ -1,0 +1,99 @@
+.patient-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.patient-list-container h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+/* Bảng danh sách */
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.patient-table th,
+.patient-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.patient-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #444;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.patient-table td {
+  border-bottom: 1px solid #f0f0f0;
+  color: #555;
+}
+
+/* Hàng xen kẽ màu */
+.patient-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Hover highlight */
+.patient-table tbody tr:hover {
+  background-color: #f0f9ff;
+}
+
+/* Cột hành động */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.actions button:first-child {
+  background-color: #1976d2;
+  color: white;
+}
+
+.actions button:first-child:hover {
+  background-color: #125ca1;
+}
+
+.actions button:last-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.actions button:last-child:hover {
+  background-color: #3d8b40;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .patient-table th,
+  .patient-table td {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}

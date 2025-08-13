@@ -1,0 +1,39 @@
+.card-appointment {
+  background-color: #ffffff;
+  border-left: 5px solid #59c2ffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.card-appointment p {
+  margin: 6px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.card-appointment .label {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-appointment .datetime {
+  font-weight: 600;
+  color: #000000;
+}
+
+.btn-view-more {
+  background-color: #59c2ffff;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #59c2ffff;
+}
